@@ -20,8 +20,8 @@ public class UserService {
 
     public void registerUser(RegisterRequest request) {
         Users user = new Users();
-        user.setId(request.getUserId());  // 변경된 부분
-        user.setPassword(new BCryptPasswordEncoder().encode(request.getUserPw()));  // 변경된 부분
+        user.setId(request.getUserId()); 
+        user.setPassword(new BCryptPasswordEncoder().encode(request.getUserPw()));
         user.setEmail(request.getUserEmail());
         user.setName(request.getUserName());
         user.setPhone(request.getPhone());
