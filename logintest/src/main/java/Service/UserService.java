@@ -1,13 +1,13 @@
-package logintest.Service;
+package Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import logintest.Domain.LoginType;
-import logintest.Domain.Users;
-import logintest.Dto.RegisterRequest;
-import logintest.Repository.UserRepository;
+import Domain.LoginType;
+import Domain.Users;
+import Dto.RegisterRequest;
+import Repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

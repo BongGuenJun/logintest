@@ -1,4 +1,4 @@
-package logintest.Domain;
+package Domain;
 
 public enum LoginType {
 	  	LOCAL,

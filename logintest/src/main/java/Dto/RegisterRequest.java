@@ -1,4 +1,4 @@
-package logintest.Dto;
+package Dto;
 
 import lombok.Data;
 

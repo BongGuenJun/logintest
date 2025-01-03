@@ -1,7 +1,7 @@
-package logintest.Controller;
+package Controller;
 
-import logintest.Domain.Users;
-import logintest.Service.UserService;
+import Domain.Users;
+import Service.UserService;
 
 import java.util.Optional;
 

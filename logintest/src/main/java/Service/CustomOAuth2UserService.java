@@ -1,4 +1,4 @@
-package logintest.Service;
+package Service;
 
 import java.util.Collections;
 import java.util.Map;
@@ -14,9 +14,9 @@ import org.springframework.security.oauth2.core.user.DefaultOAuth2User;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
-import logintest.Domain.LoginType;
-import logintest.Domain.Users;
-import logintest.Repository.UserRepository;
+import Domain.LoginType;
+import Domain.Users;
+import Repository.UserRepository;
 
 @Service
 public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequest, OAuth2User> {

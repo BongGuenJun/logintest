@@ -1,4 +1,4 @@
-package logintest.Configuration;
+package Configuration;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
